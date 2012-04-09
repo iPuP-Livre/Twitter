@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E042F83515333951006CDF09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E042F83415333951006CDF09 /* UIKit.framework */; };
+		E042F83715333951006CDF09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E042F83615333951006CDF09 /* Foundation.framework */; };
+		E042F83915333951006CDF09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E042F83815333951006CDF09 /* CoreGraphics.framework */; };
+		E042F83F15333951006CDF09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E042F83D15333951006CDF09 /* InfoPlist.strings */; };
+		E042F84115333951006CDF09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E042F84015333951006CDF09 /* main.m */; };
+		E042F84515333951006CDF09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E042F84415333951006CDF09 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E042F83015333951006CDF09 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E042F83415333951006CDF09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E042F83615333951006CDF09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E042F83815333951006CDF09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E042F83C15333951006CDF09 /* Twitter-Info.plist */ = {isa = PBXFileReference; path = "Twitter-Info.plist"; sourceTree = "<group>"; };
+		E042F83E15333951006CDF09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E042F84015333951006CDF09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E042F84215333951006CDF09 /* Twitter-Prefix.pch */ = {isa = PBXFileReference; path = "Twitter-Prefix.pch"; sourceTree = "<group>"; };
+		E042F84315333951006CDF09 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E042F84415333951006CDF09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E042F82D15333951006CDF09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E042F83515333951006CDF09 /* UIKit.framework in Frameworks */,
+				E042F83715333951006CDF09 /* Foundation.framework in Frameworks */,
+				E042F83915333951006CDF09 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E042F82515333951006CDF09 = {
+			isa = PBXGroup;
+			children = (
+				E042F83A15333951006CDF09 /* Twitter */,
+				E042F83315333951006CDF09 /* Frameworks */,
+				E042F83115333951006CDF09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E042F83115333951006CDF09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E042F83015333951006CDF09 /* Twitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E042F83315333951006CDF09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E042F83415333951006CDF09 /* UIKit.framework */,
+				E042F83615333951006CDF09 /* Foundation.framework */,
+				E042F83815333951006CDF09 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E042F83A15333951006CDF09 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				E042F84315333951006CDF09 /* AppDelegate.h */,
+				E042F84415333951006CDF09 /* AppDelegate.m */,
+				E042F83B15333951006CDF09 /* Supporting Files */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		E042F83B15333951006CDF09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E042F83C15333951006CDF09 /* Twitter-Info.plist */,
+				E042F83D15333951006CDF09 /* InfoPlist.strings */,
+				E042F84015333951006CDF09 /* main.m */,
+				E042F84215333951006CDF09 /* Twitter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E042F82F15333951006CDF09 /* Twitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E042F84815333951006CDF09 /* Build configuration list for PBXNativeTarget "Twitter" */;
+			buildPhases = (
+				E042F82C15333951006CDF09 /* Sources */,
+				E042F82D15333951006CDF09 /* Frameworks */,
+				E042F82E15333951006CDF09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twitter;
+			productName = Twitter;
+			productReference = E042F83015333951006CDF09 /* Twitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E042F82715333951006CDF09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E042F82A15333951006CDF09 /* Build configuration list for PBXProject "Twitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E042F82515333951006CDF09;
+			productRefGroup = E042F83115333951006CDF09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E042F82F15333951006CDF09 /* Twitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E042F82E15333951006CDF09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E042F83F15333951006CDF09 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E042F82C15333951006CDF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E042F84115333951006CDF09 /* main.m in Sources */,
+				E042F84515333951006CDF09 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E042F83D15333951006CDF09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E042F83E15333951006CDF09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E042F84615333951006CDF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E042F84715333951006CDF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E042F84915333951006CDF09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitter/Twitter-Prefix.pch";
+				INFOPLIST_FILE = "Twitter/Twitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E042F84A15333951006CDF09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twitter/Twitter-Prefix.pch";
+				INFOPLIST_FILE = "Twitter/Twitter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E042F82A15333951006CDF09 /* Build configuration list for PBXProject "Twitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E042F84615333951006CDF09 /* Debug */,
+				E042F84715333951006CDF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E042F84815333951006CDF09 /* Build configuration list for PBXNativeTarget "Twitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E042F84915333951006CDF09 /* Debug */,
+				E042F84A15333951006CDF09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E042F82715333951006CDF09 /* Project object */;
+}
